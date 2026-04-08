@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lakshya Shorthand Typing Institute (LIST) | Faridabad</title>
+  <meta name="description" content="Faridabad's most trusted institute for Hindi & English Shorthand and Typing. 5000+ students trained since 2013. Crack Govt exams with expert coaching.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#home" class="logo" id="logoLink">
+      <div class="logo-badge">L</div>
+      <div class="logo-text">
+        <strong>Lakshya Institute (LIST)</strong>
+        <span>Shorthand · Typing · Steno</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#exams">Exams</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="tel:+919466993370" class="btn-enroll">📞 Enroll Now</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close-btn" id="closeMenu">✕</button>
+    <a href="#home" onclick="closeMobile()">Home</a>
+    <a href="#courses" onclick="closeMobile()">Courses</a>
+    <a href="#why" onclick="closeMobile()">Why Us</a>
+    <a href="#exams" onclick="closeMobile()">Exams</a>
+    <a href="#reviews" onclick="closeMobile()">Reviews</a>
+    <a href="#contact" onclick="closeMobile()">Contact</a>
+    <a href="tel:+919466993370" class="btn-enroll" onclick="closeMobile()">📞 Call Now</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-bg">
+      <div class="hero-blob blob1"></div>
+      <div class="hero-blob blob2"></div>
+      <div class="hero-blob blob3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-badge">4.9★ Rated · 374 Google Reviews · Since 2013</div>
+        <h1 class="hero-title">
+          Master <span class="highlight">Shorthand</span> &amp;<br>Typing. Crack<br>Govt Exams.
+        </h1>
+        <div class="typewriter-wrap">
+          Prepare for: <span class="typewriter" id="typewriter"></span>
+        </div>
+        <p class="hero-sub">
+          Faridabad's most trusted institute for Hindi &amp; English Shorthand and Typing.
+          5000+ students trained. Expert faculty. Batches from 6 AM daily.
+        </p>
+        <div class="hero-btns">
+          <a href="#courses" class="btn-primary">View Courses →</a>
+          <a href="tel:+919466993370" class="btn-call">📞 Call: 094669 93370</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="stat-card-hero">
+          <div class="stat-icon">🏆</div>
+          <div class="stat-info">
+            <strong>5000+</strong>
+            <span>Students Trained</span>
+          </div>
+        </div>
+        <div class="stat-card-hero">
+          <div class="stat-icon">⭐</div>
+          <div class="stat-info">
+            <strong>4.9/5</strong>
+            <span>Google Rating</span>
+          </div>
+        </div>
+        <div class="stat-card-hero">
+          <div class="stat-icon">📅</div>
+          <div class="stat-info">
+            <strong>11+ Yrs</strong>
+            <span>Experience Since 2013</span>
+          </div>
+        </div>
+        <div class="stat-card-hero">
+          <div class="stat-icon">🎯</div>
+          <div class="stat-info">
+            <strong>500+</strong>
+            <span>Govt Job Selections</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">Scroll</div>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <span class="stat-emoji">📅</span>
+        <span class="stat-num" data-target="11">0</span><span class="stat-num" style="font-size:24px">+ Yrs</span>
+        <div class="stat-label">Experience</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-1">
+        <span class="stat-emoji">👩🎓</span>
+        <span class="stat-num" data-target="5000">0</span><span class="stat-num" style="font-size:24px">+</span>
+        <div class="stat-label">Students Trained</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-2">
+        <span class="stat-emoji">⭐</span>
+        <span class="stat-num">4.9</span><span class="stat-num" style="font-size:24px">/5</span>
+        <div class="stat-label">Google Rating</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-3">
+        <span class="stat-emoji">🏆</span>
+        <span class="stat-num" data-target="500">0</span><span class="stat-num" style="font-size:24px">+</span>
+        <div class="stat-label">Govt Selections</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-4">
+        <span class="stat-emoji">📚</span>
+        <span class="stat-num">7</span><span class="stat-num" style="font-size:24px">+</span>
+        <div class="stat-label">Courses Available</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-label">Our Courses</span>
+        <h2 class="section-title">Everything You Need to Crack<br>Government Exams</h2>
+        <p class="section-sub">Expert-led batches in Hindi & English — tailored for every major government exam pattern.</p>
+      </div>
+      <div class="courses-grid">
+        <div class="course-card reveal">
+          <div class="course-icon">✍️</div>
+          <div class="course-title">Hindi Shorthand</div>
+          <p class="course-desc">Master Hindi Shorthand for Court Steno & DSSSB with expert speed-building techniques.</p>
+          <div class="course-tags">
+            <span class="tag tag-salmon">SSC Steno</span>
+            <span class="tag tag-blue">DSSSB</span>
+            <span class="tag tag-salmon">Court Steno</span>
+          </div>
+          <a href="tel:+919466993370" class="btn-know">Enquire Now</a>
+        </div>
+        <div class="course-card reveal reveal-delay-1">
+          <div class="course-icon">📝</div>
+          <div class="course-title">English Shorthand</div>
+          <p class="course-desc">Comprehensive English Shorthand coaching for SSC Stenographer and High Court exams.</p>
+          <div class="course-tags">
+            <span class="tag tag-blue">SSC Steno</span>
+            <span class="tag tag-salmon">SSB</span>
+            <span class="tag tag-blue">High Court</span>
+          </div>
+          <a href="tel:+919466993370" class="btn-know">Enquire Now</a>
+        </div>
+        <div class="course-card reveal reveal-delay-2">
+          <div class="course-icon">⌨️</div>
+          <div class="course-title">Hindi Typing</div>
+          <p class="course-desc">Kruti Dev & Mangal font typing for CPCT, DSSSB & other government recruitment tests.</p>
+          <div class="course-tags">
+            <span class="tag tag-salmon">CPCT</span>
+            <span class="tag tag-blue">DSSSB</span>
+            <span class="tag tag-salmon">Mangal / Kruti Dev</span>
+          </div>
+          <a href="tel:+919466993370" class="btn-know">Enquire Now</a>
+        </div>
+        <div class="course-card reveal reveal-delay-3">
+          <div class="course-icon">💻</div>
+          <div class="course-title">English Typing</div>
+          <p class="course-desc">Speed and accuracy training for English typing — required in all major Govt exams.</p>
+          <div class="course-tags">
+            <span class="tag tag-blue">All Govt Exams</span>
+            <span class="tag tag-salmon">Speed Building</span>
+          </div>
+          <a href="tel:+919466993370" class="btn-know">Enquire Now</a>
+        </div>
+        <div class="course-card reveal reveal-delay-1">
+          <div class="course-icon">🌐</div>
+          <div class="course-title">Punjabi / Urdu Typing</div>
+          <p class="course-desc">Special batches for Punjabi and Urdu typing as required in state-level government recruitment.</p>
+          <div class="course-tags">
+            <span class="tag tag-salmon">State Exams</span>
+            <span class="tag tag-blue">Special Batch</span>
+          </div>
+          <a href="tel:+919466993370" class="btn-know">Enquire Now</a>
+        </div>
+        <div class="course-card reveal reveal-delay-2">
+          <div class="course-icon">🖥️</div>
+          <div class="course-title">Microsoft Office</div>
+          <p class="course-desc">Word, Excel, PowerPoint — complete computer literacy for all government job requirements.</p>
+          <div class="course-tags">
+            <span class="tag tag-blue">MS Word</span>
+            <span class="tag tag-salmon">MS Excel</span>
+            <span class="tag tag-blue">PowerPoint</span>
+          </div>
+          <a href="tel:+919466993370" class="btn-know">Enquire Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-visual reveal">
+          <div class="why-bg-card"></div>
+          <div class="why-main-card">
+            <div class="why-rating">
+              <div class="rating-num">4.9</div>
+              <div>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <div class="rating-text">Based on 374 Google Reviews</div>
+              </div>
+            </div>
+            <div class="review-bar"><span class="bar-label">5</span><div class="bar-track"><div class="bar-fill" style="width:92%"></div></div></div>
+            <div class="review-bar"><span class="bar-label">4</span><div class="bar-track"><div class="bar-fill" style="width:5%"></div></div></div>
+            <div class="review-bar"><span class="bar-label">3</span><div class="bar-track"><div class="bar-fill" style="width:2%"></div></div></div>
+            <div class="review-bar"><span class="bar-label">2</span><div class="bar-track"><div class="bar-fill" style="width:1%"></div></div></div>
+            <div class="review-bar"><span class="bar-label">1</span><div class="bar-track"><div class="bar-fill" style="width:0%"></div></div></div>
+          </div>
+          <div class="since-badge">Est. 2013 ✦ 11+ Years</div>
+        </div>
+        <div class="why-points reveal reveal-delay-2">
+          <div class="section-head">
+            <span class="section-label">Why Choose LIST?</span>
+            <h2 class="section-title">Faridabad's Most Trusted Coaching</h2>
+          </div>
+          <div class="why-point">
+            <div class="point-icon">👨🏫</div>
+            <div class="point-text">
+              <strong>Expert & Dedicated Faculty</strong>
+              <span>Experienced teachers focused on exam pattern, speed building and real test practice.</span>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="point-icon">🌅</div>
+            <div class="point-text">
+              <strong>Early Morning Batches from 6 AM</strong>
+              <span>Flexible timing so students can prepare without disrupting their other schedules.</span>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="point-icon">🎯</div>
+            <div class="point-text">
+              <strong>Exam-Pattern Based Practice</strong>
+              <span>Mock tests and practice exactly as per SSC, DSSSB, Court & SSB exam patterns.</span>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="point-icon">🤝</div>
+            <div class="point-text">
+              <strong>Personal Attention & Small Batches</strong>
+              <span>Every student gets individual guidance to overcome weak areas and improve speed.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXAMS -->
+  <section id="exams">
+    <div class="container" style="text-align:center;">
+      <span class="section-label reveal">Exam Targets</span>
+      <h2 class="section-title reveal">We Prepare You For Every<br>Government Exam</h2>
+      <div class="exams-cloud">
+        <div class="exam-pill reveal">SSC Stenographer</div>
+        <div class="exam-pill reveal">DSSSB Steno</div>
+        <div class="exam-pill reveal">SSB Clerk</div>
+        <div class="exam-pill reveal">High Court Steno</div>
+        <div class="exam-pill reveal">District Court</div>
+        <div class="exam-pill reveal">CPCT Exam</div>
+        <div class="exam-pill reveal">Railway Clerk</div>
+        <div class="exam-pill reveal">Secretariat Asst.</div>
+        <div class="exam-pill reveal">Delhi Subordinate Courts</div>
+        <div class="exam-pill reveal">Haryana SSC</div>
+        <div class="exam-pill reveal">UP Steno</div>
+        <div class="exam-pill reveal">Bank Clerk</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHEDULE -->
+  <section id="schedule">
+    <div class="container">
+      <div class="section-head reveal" style="text-align:center;">
+        <span class="section-label">Batch Timings</span>
+        <h2 class="section-title">Pick Your Perfect Batch</h2>
+        <p class="section-sub" style="margin:0 auto;">We offer flexible batches to fit every student's schedule — morning to evening.</p>
+      </div>
+      <div class="schedule-grid">
+        <div class="batch-card batch-morning reveal">
+          <span class="batch-emoji">🌄</span>
+          <div class="batch-time">6:00 – 8:00 AM</div>
+          <div class="batch-name">Morning Batch</div>
+          <div class="batch-sub">Best for working students</div>
+        </div>
+        <div class="batch-card batch-day reveal reveal-delay-1">
+          <span class="batch-emoji">☀️</span>
+          <div class="batch-time">10:00 AM – 1 PM</div>
+          <div class="batch-name">Day Batch</div>
+          <div class="batch-sub">Regular full-time batch</div>
+        </div>
+        <div class="batch-card batch-evening reveal reveal-delay-2">
+          <span class="batch-emoji">🌆</span>
+          <div class="batch-time">5:00 – 8:00 PM</div>
+          <div class="batch-name">Evening Batch</div>
+          <div class="batch-sub">For college-going students</div>
+        </div>
+        <div class="batch-card batch-weekend reveal reveal-delay-3">
+          <span class="batch-emoji">📅</span>
+          <div class="batch-time">Sun: 6 AM – 12 PM</div>
+          <div class="batch-name">Weekend Batch</div>
+          <div class="batch-sub">Special crash course</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews">
+    <div class="container">
+      <div class="section-head reveal" style="text-align:center; margin-bottom:40px;">
+        <span class="section-label">Student Reviews</span>
+        <h2 class="section-title">What Our Students Say</h2>
+      </div>
+    </div>
+    <div class="reviews-track">
+      <div class="reviews-slider" id="reviewSlider">
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"I'm having an excellent service by my tutor and the administration. Highly recommend to all government exam aspirants."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">S</div>
+            <div><div class="reviewer-name">Shyam Sharma</div><div class="reviewer-role">Google Review</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"Hard working staff and provide excellent education. The teachers are very supportive and always ready to help."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">N</div>
+            <div><div class="reviewer-name">Nikki Melandiya</div><div class="reviewer-role">Google Review</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"Best coaching for shorthand in Faridabad! Cleared my SSC Stenographer exam in first attempt. Thank you LIST!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">R</div>
+            <div><div class="reviewer-name">Ravi Kumar</div><div class="reviewer-role">SSC Steno Qualified</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"The morning batch at 6 AM is perfect for me. Faculty is dedicated and the study material is very comprehensive."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">P</div>
+            <div><div class="reviewer-name">Priya Singh</div><div class="reviewer-role">DSSSB Qualified</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"Improved my Hindi typing speed from 20 to 55 WPM in just 3 months. Amazing coaching environment!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">A</div>
+            <div><div class="reviewer-name">Amit Verma</div><div class="reviewer-role">CPCT Qualified</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"Very professional institute. Got selected in High Court as Steno after training from LIST. Forever grateful!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">M</div>
+            <div><div class="reviewer-name">Meena Devi</div><div class="reviewer-role">High Court Steno</div></div>
+          </div>
+        </div>
+        <!-- Duplicates for seamless scroll -->
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"I'm having an excellent service by my tutor and the administration. Highly recommend to all government exam aspirants."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">S</div>
+            <div><div class="reviewer-name">Shyam Sharma</div><div class="reviewer-role">Google Review</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"Hard working staff and provide excellent education. The teachers are very supportive and always ready to help."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">N</div>
+            <div><div class="reviewer-name">Nikki Melandiya</div><div class="reviewer-role">Google Review</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"Best coaching for shorthand in Faridabad! Cleared my SSC Stenographer exam in first attempt. Thank you LIST!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">R</div>
+            <div><div class="reviewer-name">Ravi Kumar</div><div class="reviewer-role">SSC Steno Qualified</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"The morning batch at 6 AM is perfect for me. Faculty is dedicated and the study material is very comprehensive."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">P</div>
+            <div><div class="reviewer-name">Priya Singh</div><div class="reviewer-role">DSSSB Qualified</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"Improved my Hindi typing speed from 20 to 55 WPM in just 3 months. Amazing coaching environment!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">A</div>
+            <div><div class="reviewer-name">Amit Verma</div><div class="reviewer-role">CPCT Qualified</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">"Very professional institute. Got selected in High Court as Steno after training from LIST. Forever grateful!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">M</div>
+            <div><div class="reviewer-name">Meena Devi</div><div class="reviewer-role">High Court Steno</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrap reveal">
+          <div class="about-img-bg"></div>
+          <div class="about-img-card">
+            <div class="institute-logo-big">L</div>
+            <div class="about-card-title">Lakshya Institute (LIST)</div>
+            <div class="about-card-sub">FCA-98, Ballabhgarh, Faridabad</div>
+            <div style="display:flex;gap:16px;margin-top:10px;">
+              <div style="text-align:center;">
+                <div style="font-size:24px;font-weight:700;color:#c06030;">4.9⭐</div>
+                <div style="font-size:11px;color:#999;">Google Rating</div>
+              </div>
+              <div style="text-align:center;">
+                <div style="font-size:24px;font-weight:700;color:#5060c0;">374+</div>
+                <div style="font-size:11px;color:#999;">Reviews</div>
+              </div>
+              <div style="text-align:center;">
+                <div style="font-size:24px;font-weight:700;color:#c06030;">2013</div>
+                <div style="font-size:11px;color:#999;">Est. Year</div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-chip chip1">📞 094669 93370</div>
+          <div class="floating-chip chip2">⏰ Open from 6 AM</div>
+        </div>
+        <div class="about-content reveal reveal-delay-2">
+          <span class="section-label">About Us</span>
+          <h2 class="section-title">11+ Years of Excellence in Govt Exam Coaching</h2>
+          <p>Established in 2013, Lakshya Shorthand Typing Institute (LIST) has been the go-to coaching center for thousands of government job aspirants in Faridabad and across Haryana.</p>
+          <p>We specialize in Hindi and English Shorthand, Typing in multiple languages, and Microsoft Office — all aligned with the latest government exam patterns for SSC, DSSSB, SSB, and Court recruitment.</p>
+          <ul class="about-list">
+            <li>Hindi &amp; English Shorthand for Steno exams</li>
+            <li>Typing in Hindi, English, Punjabi &amp; Urdu</li>
+            <li>Flexible batches starting 6 AM daily</li>
+            <li>Serving students across entire Haryana</li>
+            <li>500+ government job selections</li>
+            <li>Individual attention with small batch sizes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-head reveal" style="text-align:center;">
+        <span class="section-label">Contact Us</span>
+        <h2 class="section-title">Ready to Start Your Journey?</h2>
+        <p class="section-sub" style="margin:0 auto;">Fill the form or call us directly. We're here 6 AM – 9 PM, 6 days a week.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-form reveal">
+          <h3 style="font-family:'Playfair Display',serif;font-size:22px;margin-bottom:24px;">Send an Enquiry</h3>
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" required>
+          </div>
+          <div class="form-group">
+            <label for="course">Course Interested In</label>
+            <select id="course">
+              <option>Hindi Shorthand</option>
+              <option>English Shorthand</option>
+              <option>Hindi Typing</option>
+              <option>English Typing</option>
+              <option>Punjabi / Urdu Typing</option>
+              <option>Microsoft Office</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell us about your exam target, current level, preferred batch..."></textarea>
+          </div>
+          <button class="btn-submit" type="button" onclick="handleSubmit()">📨 Send Enquiry</button>
+        </div>
+        <div class="contact-info reveal reveal-delay-2">
+          <a href="tel:+919466993370" class="info-card">
+            <div class="info-icon">📞</div>
+            <div class="info-text">
+              <strong>Call Us Directly</strong>
+              <span>094669 93370<br>Available 6 AM – 9 PM</span>
+            </div>
+          </a>
+          <a href="https://wa.me/919466993370" target="_blank" class="info-card">
+            <div class="info-icon">💬</div>
+            <div class="info-text">
+              <strong>WhatsApp Us</strong>
+              <span>+91 94669 93370<br>Quick reply guaranteed</span>
+            </div>
+          </a>
+          <div class="info-card">
+            <div class="info-icon">📍</div>
+            <div class="info-text">
+              <strong>Visit Us</strong>
+              <span>FCA-98, Gali No. 3, near Pathwari Mandir,<br>Shyam Colony, Bhudhat Colony,<br>Ballabhgarh, Faridabad – 121004</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">🕐</div>
+            <div class="info-text">
+              <strong>Institute Hours</strong>
+              <span>Mon–Sat: 6:00 AM – 9:00 PM<br>Sunday: 6:00 AM – 12:00 PM</span>
+            </div>
+          </div>
+          <div class="map-embed">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3511.0!2d77.3314!3d28.3374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cd9fcaaaaaaa%3A0xaaaaaaaaaaa!2sLakshya%20Shorthand%20Typing%20Institute!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Map location of Lakshya Institute"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-badge">L</div>
+          <div class="logo-text">
+            <strong style="color:white;">Lakshya Institute (LIST)</strong>
+            <span style="color:rgba(255,255,255,0.4);">Shorthand · Typing · Steno</span>
+          </div>
+        </div>
+        <p>Faridabad's most trusted coaching for Hindi & English Shorthand and Typing since 2013. 5000+ students trained, 500+ government job selections.</p>
+        <div class="footer-social">
+          <a href="tel:+919466993370" class="social-btn">📞</a>
+          <a href="https://wa.me/919466993370" target="_blank" class="social-btn">💬</a>
+          <a href="#" class="social-btn">📘</a>
+          <a href="#" class="social-btn">📸</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#exams">Exam Targets</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Our Courses</h4>
+        <ul>
+          <li><a href="#courses">Hindi Shorthand</a></li>
+          <li><a href="#courses">English Shorthand</a></li>
+          <li><a href="#courses">Hindi Typing</a></li>
+          <li><a href="#courses">English Typing</a></li>
+          <li><a href="#courses">Punjabi Typing</a></li>
+          <li><a href="#courses">MS Office</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+919466993370">📞 094669 93370</a></li>
+          <li><a href="https://wa.me/919466993370">💬 WhatsApp</a></li>
+          <li><a href="#contact">📍 FCA-98, Ballabhgarh, Faridabad</a></li>
+          <li><a href="#schedule">⏰ Opens 6:00 AM Daily</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-logo-text">
+        <div class="footer-logo-badge">L</div>
+        <span>© 2024 Lakshya Shorthand Typing Institute (LIST). All rights reserved.</span>
+      </div>
+      <span>Made with ❤️ for Govt Job Aspirants</span>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/919466993370" target="_blank" class="whatsapp-float" title="Chat on WhatsApp">💬</a>
+
+  <script src="main.js"></script>
+</body>
+</html>
